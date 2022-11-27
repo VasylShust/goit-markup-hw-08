@@ -7,32 +7,28 @@
   }
 }
 
+.addres-soc{
+  @media screen and (min-width:768px){
+    display: flex;
+  }
+}
+
 .logo-adress-container{
   margin: 0 auto;
   padding-top: 60px;
-
+  @media screen and(min-width:768px){
+    margin-right: 170px;
+    margin-left: 70px;
+  }
   @media screen and (min-width: 1200px){
-  max-width: 231px;
-  margin-right: 70px;
-  padding-top: 60px;
+  min-width: 231px;  
   padding-bottom: 60px;
+  margin-right: 70px;
   }
 }
 
 .logo-down{
-  @media screen and (min-width: 1200px){
-    display: block;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-text-decoration: none;
-margin-bottom: 20px;
-  }
-display: block;
+  display: block;
 text-align: center;
 font-family: 'Raleway';
 font-style: normal;
@@ -43,6 +39,13 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 text-decoration: none;
 margin-bottom: 28px;
+
+  @media screen and (min-width: 1200px){
+font-size: 26px;
+line-height: 1.19;
+margin-bottom: 20px;
+text-align: left;
+  }
 }
 
 
@@ -56,19 +59,13 @@ margin-bottom: 28px;
   text-align: center;
   margin-bottom: 12px;
   margin-top: 0;
-
-
   @media screen and (min-width: 1200px){
-font-size: 14px;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
   margin-top: 0px ;
   margin-bottom: 9px;
   max-width: 231px;
+  text-align: left;
   }
-  
 }
 
 .contacts-down {
@@ -89,15 +86,11 @@ font-size: 14px;
   }
 
   @media screen and (min-width: 1200px){
-     display: block;
   font-size: 14px;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
   max-width: 231px;
-  text-decoration: none;
+  text-align: left;
   &:hover,
   &:focus
   {
@@ -108,21 +101,16 @@ font-size: 14px;
 }
 .contacts-down.no-margin {
   margin-bottom: 0px;
-
-  @media screen and (min-width: 1200px){
-  margin-bottom: 0px;
-  }
 }
 
 .company-soc-link {
   padding-top: 60px;
 
   @media screen and (min-width: 1200px){
-padding-top: 72px;
+  padding-top: 72px;
   padding-bottom: 100px;
   margin-right: 93px;
   }
-  
 }
 
 
@@ -141,17 +129,7 @@ margin-top: 0;
 margin-bottom: 20px;
 
   @media screen and (min-width: 1200px){
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 20px;
-margin-top: 0px;
-text-align: left;
+  text-align: left;
   }
 }
 
@@ -166,6 +144,7 @@ text-align: left;
   width: 44px;
   height: 44px;
 }
+
 .soc-item-link {
   width: 100%;
   height: 100%;
@@ -182,6 +161,7 @@ text-align: left;
     background-color: var(--hover-focus-color);
   }
 }
+
 .soc-item-icon {
   fill: #ffffff;
 }
@@ -190,7 +170,6 @@ text-align: left;
 .subscribe {
   padding-top: 60px;
   padding-bottom: 60px;
-  position: relative;
 
   @media screen and (min-width: 1200px){
 padding-top: 72px;
@@ -202,12 +181,10 @@ padding-top: 72px;
 display: block;
 text-align: center;
 
-
   @media screen  and(min-width:1200px) {
     position: relative;
     display: flex;
-  }
-  
+  } 
 }
 
 .subscribe-input{
@@ -239,8 +216,7 @@ height: 50px;
   &:hover,
   &:focus{
     border-color: var(--hover-focus-color);
-}
-
+    }
   @media screen and (min-width:1200px){
     width:358px;
     margin-right: 12px;
@@ -249,42 +225,25 @@ height: 50px;
 }
 
 
-
-.subscribe-button {
-  display: block;
-  flex-wrap: wrap;
+.subscribe-button { 
   padding: 10px 62px 10px 28px;
-  text-align: center;
   margin: 0 auto;
  
-
-
   @media screen and (min-width:1200px){
   display: inline-block;
   flex-wrap: nowrap;
   padding: 10px 62px 10px 28px;
-  justify-content: center;
-  align-items: center;
   }
   
 }
-
-
 
 .subscribe-button-icon {
  position: absolute;
   right: 28px;
   transform: translateY(50%);
-
-  fill: #ffffff;
-
-  @media screen and (min-width:1200px){
-  position: absolute;
-  right: 28px;
-  transform: translateY(50%);
   fill: #ffffff;
   }
-}
+
 .button-icon-pos{
   @media screen and (max-width: 1199px){
     width: 200px;

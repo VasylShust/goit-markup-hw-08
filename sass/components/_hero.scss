@@ -1,7 +1,7 @@
 .hero{
   text-align: center;
   background-color: #2F303A;
-  @media screen and (min-width: 480px){
+@media screen and (min-width: 480px){
     max-width: 480px;
 }
 @media screen and (min-width: 768px){
@@ -17,26 +17,31 @@
   padding-bottom: 120px;
   @media screen and (min-width: 1200px){
     padding-top: 200px;
-    padding-bottom: 200px;}
+    padding-bottom: 200px;
+  }
 }
 
 .hero-heading {
-  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 0px;
+  margin: 0 auto;
   margin-bottom: 30px;
   color: #FFFFFF;
   max-width: 360px;
+  @media screen and (min-width:768px) {
+    max-width: 360px;
+  }
   @media screen and (min-width: 1200px){
     font-size: 44px;
   line-height: 1.36;
   max-width: 696px;
-    }
+}
 }
 
 .hero .container{
