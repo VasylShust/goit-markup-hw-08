@@ -1,5 +1,10 @@
 .section.benefits{
-  padding-bottom: 0px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 94px;
+  }
 }
 .list-ideograph {
   display: flex;

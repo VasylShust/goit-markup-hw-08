@@ -1,8 +1,10 @@
-@media screen and (max-width:1199px) {
-      .captioned-image{
+
+ .section.none{
+@media screen and (max-width:1199px) {  
     display: none;
-  }
-}
+    }
+ }
+
 .captioned-image__section-head {
   font-weight: 700;
   font-size: 36px;
